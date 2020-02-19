@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1582123806 source:/home/snake/Cods/CodeBlocks/sfml_obs_mode/main.cpp
+	<iostream>
+	"sfml_win.h"
+	"shape_obj.h"
+	<cmath>
+
+1581003507 source:/home/snake/Cods/CodeBlocks/sfml_obs_mode/src/sfml_win.cpp
+	"sfml_win.h"
+	<algorithm>
+
+1582123859 /home/snake/Cods/CodeBlocks/sfml_obs_mode/include/sfml_win.h
+	<SFML/Graphics.hpp>
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/Audio.hpp>
+	<vector>
+	<functional>
+	"obsrvr.h"
+	"drawable.h"
+	"alive.h"
+	"reactor.h"
+
+1579854043 /home/snake/Cods/CodeBlocks/sfml_obs_mode/include/obsrvr.h
+	<SFML/Window.hpp>
+	<vector>
+
+1580572908 source:/home/snake/Cods/CodeBlocks/sfml_obs_mode/src/mousemove.cpp
+	"mousemove.h"
+	<iostream>
+
+1580572885 /home/snake/Cods/CodeBlocks/sfml_obs_mode/include/mousemove.h
+	"obsrvr.h"
+	"drawable.h"
+	<memory>
+	<initializer_list>
+	<map>
+
+1581008602 /home/snake/Cods/CodeBlocks/sfml_obs_mode/include/drawable.h
+	<SFML/Graphics.hpp>
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/Audio.hpp>
+	"reactor.h"
+
+1582126125 source:/home/snake/Cods/CodeBlocks/sfml_obs_mode/src/shape_obj.cpp
+	"shape_obj.h"
+
+1582126125 /home/snake/Cods/CodeBlocks/sfml_obs_mode/include/shape_obj.h
+	"obsrvr.h"
+	"drawable.h"
+	"alive.h"
+	<memory>
+	<iostream>
+
+1581000622 source:/home/snake/Cods/CodeBlocks/sfml_obs_mode/src/shape_group.cpp
+	"shape_group.h"
+	<iostream>
+
+1580672413 /home/snake/Cods/CodeBlocks/sfml_obs_mode/include/shape_group.h
+	"obsrvr.h"
+	"drawable.h"
+	"shape_obj.h"
+	<memory>
+	<initializer_list>
+	<map>
+
+1580753958 /home/snake/Cods/CodeBlocks/sfml_obs_mode/include/alive.h
+
+1580916838 /home/snake/Cods/CodeBlocks/sfml_obs_mode/include/collidable.h
+	<SFML/Graphics.hpp>
+
+1581001101 /home/snake/Cods/CodeBlocks/sfml_obs_mode/include/reactor.h
+	"drawable.h"
+
